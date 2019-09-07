@@ -40,7 +40,7 @@
 		0A7471110D52C21A196A6D01 /* Pods-SlidingSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingSelector_Tests.release.xcconfig"; path = "Target Support Files/Pods-SlidingSelector_Tests/Pods-SlidingSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		35FCC241F43D947CA1147731 /* Pods_SlidingSelector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlidingSelector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AD5AE8611DB9E1C80EAFDB1 /* Pods-SlidingSelector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingSelector_Example.debug.xcconfig"; path = "Target Support Files/Pods-SlidingSelector_Example/Pods-SlidingSelector_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		43F8AAB950E24A02002950F5 /* SlidingSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SlidingSelector.podspec; path = ../SlidingSelector.podspec; sourceTree = "<group>"; };
+		43F8AAB950E24A02002950F5 /* SlidingSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SlidingSelector.podspec; path = ../SlidingSelector.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SlidingSelector_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingSelector_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,8 +60,8 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		632752B5C09F3859D3B36D0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		69CF0B4D282DE22F22A56269 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		632752B5C09F3859D3B36D0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		69CF0B4D282DE22F22A56269 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CF38EF430EF9DC9505CD4690 /* Pods-SlidingSelector_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingSelector_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SlidingSelector_Tests/Pods-SlidingSelector_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -193,7 +193,6 @@
 				CF38EF430EF9DC9505CD4690 /* Pods-SlidingSelector_Tests.debug.xcconfig */,
 				0A7471110D52C21A196A6D01 /* Pods-SlidingSelector_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = sshallow;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = G26M2FBHAB;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +260,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,6 +497,7 @@
 			baseConfigurationReference = 3AD5AE8611DB9E1C80EAFDB1 /* Pods-SlidingSelector_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G26M2FBHAB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlidingSelector/SlidingSelector-Prefix.pch";
 				INFOPLIST_FILE = "SlidingSelector/SlidingSelector-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = E7530960F9461C8E994025ED /* Pods-SlidingSelector_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G26M2FBHAB;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SlidingSelector/SlidingSelector-Prefix.pch";
 				INFOPLIST_FILE = "SlidingSelector/SlidingSelector-Info.plist";

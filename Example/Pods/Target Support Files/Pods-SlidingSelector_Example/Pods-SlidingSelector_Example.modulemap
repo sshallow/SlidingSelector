@@ -1,0 +1,6 @@
+framework module Pods_SlidingSelector_Example {
+  umbrella header "Pods-SlidingSelector_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

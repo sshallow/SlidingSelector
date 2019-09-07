@@ -1,0 +1,16 @@
+PODS:
+  - SlidingSelector (0.1.0)
+
+DEPENDENCIES:
+  - SlidingSelector (from `../`)
+
+EXTERNAL SOURCES:
+  SlidingSelector:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SlidingSelector: 4111971d5038f002345f5a1c829e1c96e82dda9b
+
+PODFILE CHECKSUM: b2ab10addd53ac00839e242c255fef1e1808a758
+
+COCOAPODS: 1.7.5
