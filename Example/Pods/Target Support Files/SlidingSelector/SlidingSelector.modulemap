@@ -1,0 +1,6 @@
+framework module SlidingSelector {
+  umbrella header "SlidingSelector-umbrella.h"
+
+  export *
+  module * { export * }
+}

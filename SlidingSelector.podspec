@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'SlidingSelector'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of SlidingSelector.'
+  s.summary          = 'iOS 以自定义间隔来分页滑动的UIScrollView,正倒序.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/sshallow/SlidingSelector.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'SlidingSelector/Classes/**/*'
   
@@ -37,6 +37,6 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+  s.frameworks = 'UIKit', 'AudioToolbox'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

@@ -1,0 +1,26 @@
+{
+  "name": "SlidingSelector",
+  "version": "0.1.0",
+  "summary": "iOS 以自定义间隔来分页滑动的UIScrollView,正倒序.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/sshallow/SlidingSelector",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "sshallow": "doit_2017@163.com"
+  },
+  "source": {
+    "git": "https://github.com/sshallow/SlidingSelector.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "SlidingSelector/Classes/**/*",
+  "frameworks": [
+    "UIKit",
+    "AudioToolbox"
+  ]
+}
