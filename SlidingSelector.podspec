@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SlidingSelector/Classes/**/*'
+  s.source_files = 'SlidingSelector/Classes/*.{h,m}'
   
   # s.resource_bundles = {
   #   'SlidingSelector' => ['SlidingSelector/Assets/*.png']

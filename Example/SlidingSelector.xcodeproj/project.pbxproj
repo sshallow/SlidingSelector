@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		06FA938FC2364CCFC327C8EB /* SlidingSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SlidingSelector.podspec; path = ../SlidingSelector.podspec; sourceTree = "<group>"; };
+		06FA938FC2364CCFC327C8EB /* SlidingSelector.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SlidingSelector.podspec; path = ../SlidingSelector.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		13DA21C50B91E4727CE2E4B6 /* Pods_SlidingSelector_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlidingSelector_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1AAC8A76FBE3AF16F5A501 /* Pods-SlidingSelector_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlidingSelector_Tests.release.xcconfig"; path = "Target Support Files/Pods-SlidingSelector_Tests/Pods-SlidingSelector_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SlidingSelector_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlidingSelector_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
